@@ -14,10 +14,8 @@ alert("While Loops in JS!");
 
 let age = 5;
 
-document.write("See browser console to print while loop inside statement!");
-
 while (age < 10) {
-    console.log("Your age is less than 10 🔞");
+    document.write("Your age is less than 10 🔞");
     age++;
 }
 
