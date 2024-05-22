@@ -1,4 +1,4 @@
-document.write("Arrays in JavaScript!" + "<br /><br />");
+document.write("Objects in JavaScript!" + "<br /><br />");
 
 
 /*
