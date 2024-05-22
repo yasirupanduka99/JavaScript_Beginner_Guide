@@ -70,6 +70,9 @@ console.log("myArray[2] : " + myArray[2]);
 myArray[3] = "hello";
 console.log("myArray[3] : " + myArray[3]);
 
+// Adds a new element (batman) to myArray array
+myArray.push("batman"); // Using push you can push data to the Array. data will store in as next index. (Last index)
+
 console.log("Access to full Array : " + myArray);
 
 myArray[2] = false;
