@@ -1,0 +1,49 @@
+body{
+    background-color: #282c34;
+    color: #abb2b3;
+    font-family: calibri;
+
+}
+
+#message{
+    width: 400px;
+    background: #ddaaaa;
+    padding: 20px;
+    padding-top: 0;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ff7777;
+    opacity: 0;
+    border-radius: 7px;
+
+    /* Set transitions. */
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+
+#message.show{
+    opacity: 1;
+
+    /* Set transitions. */
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+
+#color-changer{
+    width: 200px;
+    height: 100px;
+    margin: 30px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+
+    /* Set transitions. */
+    -webkit-transition: background-color 0.7s;
+    -moz-transition: background-color 0.7s;
+    transition: background-color 0.7s;
+}
